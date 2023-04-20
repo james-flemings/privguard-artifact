@@ -495,7 +495,9 @@ class Policy(object):
 
 if __name__ == '__main__':
 
-    policy_str = "ALLOW FILTER age >= 18 AND (SCHEMA age OR (FILTER gender == 'M' AND (ROLE MANAGER OR FILTER age <= 90)))"
+    #policy_str = "ALLOW FILTER age >= 18 AND (SCHEMA age OR (FILTER gender == 'M' AND (ROLE MANAGER OR FILTER age <= 90)))"
+    #policy_str = "ALLOW (ROLE DOCTOR OR ROLE Researcher) AND FILTER age >= 18"
+    policy_str = "ALLOW SCHEMA age, credit, duration AND FILTER age >= 18 AND PRIVACY Anonymization"
 
     # Test policy parsing
     policy = Policy(policy_str)

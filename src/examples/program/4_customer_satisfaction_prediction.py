@@ -17,6 +17,7 @@ def run(data_folder, **kwargs):
 
     y_train = df_train['TARGET'].values
     X_train = df_train.drop(['ID','TARGET'], axis=1).values
+    #X_train = df_train.drop(['TARGET'], axis=1).values
 
     # classifier
     clf = xgb.XGBClassifier(missing=np.nan, max_depth=5, n_estimators=350, learning_rate=0.03, nthread=4, subsample=0.95, colsample_bytree=0.85, seed=4242)

@@ -46,13 +46,13 @@ import stub_sklearn.metrics as stub_metrics
 import stub_sklearn.model_selection as stub_model_selection
 
 program_map = {
-    0: "./examples/program/ehr_example.py",
+    0: "./src/examples/program/ehr_example.py",
     # 1: "./examples/program/1_fraud_detection.py",
     # 2: "./examples/program/2_fraud_detection.py",
     # 3: "./examples/program/3_merchant_recommendation.py",
-    4: "./examples/program/4_customer_satisfaction_prediction.py",
-    5: "./examples/program/5_customer_transaction_prediction.py",
-    6: "./examples/program/6_customer_transaction_prediction.py",
+    4: "./src/examples/program/4_customer_satisfaction_prediction.py",
+    5: "./src/examples/program/5_customer_transaction_prediction.py",
+    6: "./src/examples/program/6_customer_transaction_prediction.py",
     # 7: "./examples/program/7_bank_customer_classification.py",
     # 8: "./examples/program/8_bank_customer_segmentation.py",
     # 9: "./examples/program/9_credit_risk_analysis.py",
@@ -69,17 +69,17 @@ program_map = {
     # 20: "./examples/program/20_ncaa_prediction.py",
     # 21: "./examples/program/21_home_value_prediction.py",
     # 22: "./examples/program/22_malware_prediction.py",
-    23: "./examples/program/23_web_traffic_forecasting.py",
+    23: "./src/examples/program/23_web_traffic_forecasting.py",
 }
 
 data_map = {
-    0: "./examples/data/ehr_example/",
+    0: "./src/examples/data/ehr_example/",
     # 1: "./examples/data/fraud_detection_1/",
     # 2: "./examples/data/fraud_detection_1/",
     # 3: "./examples/data/merchant_recommendation/",
-    4: "./examples/data/customer_satisfaction_prediction/",
-    5: "./examples/data/customer_transaction_prediction/",
-    6: "./examples/data/customer_transaction_prediction/",
+    4: "./src/examples/data/customer_satisfaction_prediction/",
+    5: "./src/examples/data/customer_transaction_prediction/",
+    6: "./src/examples/data/customer_transaction_prediction/",
     # 7: "./examples/data/bank_customer_classification/",
     # 8: "./examples/data/bank_customer_segmentation/",
     # 9: "./examples/data/credit_risk_analysis/",
@@ -96,7 +96,7 @@ data_map = {
     # 20: "./examples/data/ncaa_prediction/",
     # 21: "./examples/data/home_value_prediction/",
     # 22: "./examples/data/malware_prediction/",
-    23: "./examples/data/web_traffic_forecasting/",
+    23: "./src/examples/data/web_traffic_forecasting/",
 }
 
 lib_map = {

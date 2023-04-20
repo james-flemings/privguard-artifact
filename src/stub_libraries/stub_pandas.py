@@ -226,7 +226,10 @@ class DataFrame(Tabular):
     def drop(self, labels=None, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise'):
         """ 
         Privacy Effect:
-            If the function is used to drop columns, the column should be removed from the schema and corresponding filters should be removed, too. If all the rows are within the SCHEMA attribute, remove the attribute.
+            If the function is used to drop columns, the column should be
+            removed from the schema and corresponding filters should be
+            removed, too. If all the rows are within the SCHEMA attribute,
+            remove the attribute.
         """
         if axis is 1 or axis is 'columns':
             if inplace:
